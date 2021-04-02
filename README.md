@@ -1,24 +1,28 @@
-# jingdong-demo
+# 一、准备工作
 
-## Project setup
-```
-npm install
-```
+## 1、关闭保存时eslint校验
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+```javascript
+//新建vue.config.js
+module.exports = {
+  lintOnSave: false
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 1、css样式重置
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### （1）normalize.css 抹平浏览器差异
+
+### （2）rem单位初始设置
+
+### （3）引入iconfont字体图标（在线字体）
+
+
+
+# 二、编码
+
+## 1、首页
+
+### （1）class命名规则-BEM
+
+block__element--modifier
